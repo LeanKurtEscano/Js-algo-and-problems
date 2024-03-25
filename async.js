@@ -54,6 +54,11 @@ const dailyRoutine = async(status) => {
 
 };
 
+const nextRoutine = async() => {
+    return new Promise((resolve, reject) => {
+        resolve("Going to School");
+    })
+}
 
 const dailyLife = async() => {
     const done = await dailyRoutine();
